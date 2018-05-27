@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Lyric finder</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div id="background">
+      <div id="container">
+        <input type="text" id="search" placeholder="Search a lyric" onfocus="showList()" oninput="searchSongs()"></input>
+        <ul id="songs" onclick="hideList()"></ul>
+        <div id="lyric" onclick="hideList()"></div>
+      </div>
+    </div>
+    <script src="ajax.js"></script>
+  </body>
+</html>
