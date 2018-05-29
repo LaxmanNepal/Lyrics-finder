@@ -37,7 +37,7 @@ function writeList(data){
     searchlist.innerHTML = newList;
   }
   else{
-    searchlist.innerHTML = "<li>No se encuentran resultados con ese nombre :(</li>";
+    searchlist.innerHTML = "<li>No results :(</li>";
   }
   searchlist.style.textAlign = "left";
 }
